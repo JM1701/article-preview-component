@@ -2610,7 +2610,6 @@
     }
 
     var style = DOCUMENT.createElement('style');
-    style.setAttribute('type', 'text/css');
     style.innerHTML = css;
     var headChildren = DOCUMENT.head.childNodes;
     var beforeChild = null;
